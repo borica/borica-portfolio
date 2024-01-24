@@ -1,0 +1,11 @@
+{
+  "translation": {
+    "pt": "Idioma Português",
+    "en": "Idioma Inglês"
+  },
+  "software_engineer" : "Engenheiro de Software",
+  "copy_email": "Click no botão para copiar meu email",
+  "about_me": "Atualmente trabalho na engenharia da Logcomex, empresa focada em inteligência no comércio exterior. Construo softwares escaláveis para apresentar informações de forma inteligente. Meu primeiro contato com programação foi com PHP em 2015 durante meu curso de técnico em informática, posteriormente trabalhei com Java (EE) em aplicações web. Nos últimos anos, migrei para microserviços na Logcomex, mantendo serviços em PHP (Lumen/Laravel) e Python (FastAPI), com ênfase no backend e desenvolvimento de soluções arquiteturais.",
+  "success": "Sucesso!",
+  "mail_copy_success": "Email copiado com sucesso."
+}

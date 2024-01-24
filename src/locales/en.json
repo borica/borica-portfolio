@@ -1,0 +1,11 @@
+{
+  "translation": {
+    "pt": "Portuguese Language",
+    "en": "English Language"
+  },
+  "software_engineer" : "Software Engineer",
+  "copy_email": "Click on the button to copy my email",
+  "about_me": "I'm part of Logcomex's development team, specializing in foreign trade and logistics intelligence. I build scalable software for intelligent data presentation, including dashboards and visualizations from our BI data warehouse. My programming journey started with PHP in 2015, followed by Java (EE) for web servers. Recently, I shifted to microservices at Logcomex, maintaining PHP (Lumen/Laravel) and Python (FastAPI) services, focusing on backend development and architectural insights.",
+  "success": "Success!",
+  "mail_copy_success": "Email was copied successfully."
+}
