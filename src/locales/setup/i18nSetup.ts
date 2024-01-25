@@ -8,8 +8,10 @@ export function i18nSetup () {
     const locale = getLocale()
 
     return createI18n({
+      globalInjection: true,
       legacy: false,
       locale: locale,
+      fallbackLocale: 'pt',
       messages: {
         'en': en,
         'pt': pt,

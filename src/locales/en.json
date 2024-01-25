@@ -1,11 +1,32 @@
 {
+  "aboutMe": {
+    "about": "about",
+    "aboutMeText": "Currently I am part of Logcomex's engineering team, a company specialized in foreign trade and logistics intelligence. I build scalable software for intelligent data presentation, including dashboards and visualizations from our BI data warehouse. My programming journey started with PHP in 2015, followed by Java (EE) for web servers. Recently, I shifted to microservices at Logcomex, maintaining PHP (Lumen/Laravel) and Python (FastAPI) services, focusing on backend development and architectural insights.",
+    "me": "me"
+  },
+  "experience": {
+    "experience": "experience",
+    "present": "Present",
+    "srFullstackEngineer": "Senior Fullstack Software Engineer",
+    "plFullstackEngineer": "Fullstack Software Engineer II",
+    "jrSoftwareEngineer": "Software Engineer I",
+    "logcomexSrExperienceText": "After nearly two years working in the position of Software Engineer II, I surpassed the Soft Skills expectations required for the Senior Software Engineer role. With a good understanding of the Squads' I was directly related to ways of working, I accepted the challenge and transitioned to another team in this position. Upon joining the new team, I realized that the technical level was once again higher, and working at the same level as before was no longer possible. So I challenged myself again to thoroughly understand all areas minimally related to the my role, in order to fulfill my duties. The result was that I had the privilege to once again work with a great team and further advance in my learnings.\n\nThis particular team, was responsible for developing and maintaining a new highly configurable BI product. The idea was to have a product functioning with minimal pre-configuration, only requiring the data to be available in our data lake.\n\nAt this position, although I still addressed occasional incidents and small Front-End developments, I mainly focused on maintaining and developing the Back-End of the product. I focused in exploring new features of the Lumen and Laravel Frameworks (the frameworks adopted in the company's technology stack).\n\nWorking predominantly on the Back-End in this position, I had the opportunity to delve into Code Architecture, Microservices Architecture, Algorithms, Refactoring Patterns, TDD, Event-Driven applications, as well as other skills.\n\nAdditionally, as part of this role, it is expected to embody the company's values, work closely with the business perspective, that is, understand the true pain points of the clients, propose solutions to address them, and also assist in developing new colleagues through Pair Programming sessions and mentorship agendas.",
+    "logcomexPlExperienceText": "As my first experience in SaaS projects, working at Logcomex was challenging from day one. Apart from dealing with the entirely new world of Comex, I was challenged to work in an agile environment with highly skilled teams. It was also my first experience working with microservices, where I learned a lot about troubleshooting in distributed systems.\n\nMy team was assign with development and maintenance of a BI product where clients can search for codes and keywords to analyze, prospect, track, and perform a myriad of other monitoring tasks throughout the supply chain. Being the most used product in the company, it was crucial to work within set deadlines and have a short response time to resolve incidents in production. This position helped me grow a lot as a professional and showed me that all my previous knowledge working with Java, was valuable and could be applied regardless of the programming language barrier (PHP).\n\nMy role as a Software Engineer PL involved:\n\n- Conducting analyses in different development areas (Front-End, Back-End, Database, etc.) and providing feedback on the analyses to the stakeholders;\n\n- Developing new functionalities, from business and technical refinement to implementation and maintenance in production;\n\n- Resolving backlog and technical debts of the Squad, mainly focusing on clearing debts related to Unit Testing, Documentation, and coding best practices;\n\n- Participating in discussions for improvements, standards, sharing new technologies, and implementing agreed-upon changes in our projects' scope.\n\n- Acting as the Code Owner of the Back-End repository of our product, with the main responsibility of conducting Code Reviews for changes in the repository, ensuring that the code follows good coding practices and the overall code culture adopted by the Squad.",
+    "everisExperienceText": "My contribution to everis can be split into two main stages:\n\n1 - Working for customer Telefônica (retail) in the BSS (Business Support Services) and CRM (Customer Relationship Management) area, providing N2 and N3 support. Much of this work involved real-time data updates in production, working to unlock and enable business operations within Support SLAs. In this experience, I learned to work efficiently and meticulously, as well as further developed my SQL and PL/SQL skills while working with Oracle databases.\n\n2 - Working for customer Telefônica (corporate) system development area. In this stage of my experience, I had the pleasure of working in a team with advanced expertise coworkers, where I could further enhance my programming knowledge. I was also assigned to develop a feature in Siebel, something I had never done before.",
+    "sigmaExperienceText": "Sigma was my first experience in web development. This experience elevated both my soft and hard skills to a new level. Introduced to new problems everyday, my journey at Sigma was full of challenges, but i was surrounded of talented experienced people from whom i learned a lot from. I'm forever grateful for this experience and for the amount of learning i took from it."
+  },
+  "presentationHeader": {
+    "copyEmail": "Click on the button to copy my email",
+    "mailCopySuccess": "Email was copied to your clipboard.",
+    "softwareEngineer" : "Software Engineer",
+    "success": "Success!"
+  },
+  "techStack":{
+    "techStack": "tech",
+    "stackTech": "stack"
+  },
   "translation": {
     "pt": "Portuguese Language",
     "en": "English Language"
-  },
-  "software_engineer" : "Software Engineer",
-  "copy_email": "Click on the button to copy my email",
-  "about_me": "I'm part of Logcomex's development team, specializing in foreign trade and logistics intelligence. I build scalable software for intelligent data presentation, including dashboards and visualizations from our BI data warehouse. My programming journey started with PHP in 2015, followed by Java (EE) for web servers. Recently, I shifted to microservices at Logcomex, maintaining PHP (Lumen/Laravel) and Python (FastAPI) services, focusing on backend development and architectural insights.",
-  "success": "Success!",
-  "mail_copy_success": "Email was copied successfully."
+  }
 }

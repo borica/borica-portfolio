@@ -1,24 +1,24 @@
 <template>
-    <v-container class="mt-2 bg-test">
-      <v-row class="d-flex align-center">
+    <v-container class="px-16">
+      <v-row class="d-flex align-center about-me-container">
         <v-col
           cols="12"
-          sm="6"
-          md="6"
-          class="d-flex justify-center"
+          sm="4"
+          md="4"
+          class="d-flex justify-start"
         >
           <div class="text-center">
-            <p class="text-h1 poppins-bold">ABOUT</p>
-            <p class="text-h1">ME</p>
+            <p class="text-h1 poppins-bold">{{ $t('aboutMe.about').toUpperCase() }}</p>
+            <p class="text-h1">{{ $t('aboutMe.me').toUpperCase() }}</p>
           </div>
         </v-col>
         <v-col
           cols="12"
-          sm="6"
-          md="6"
+          sm="8"
+          md="8"
           class="poppins-medium"
         >
-          {{ $t('about_me') }}
+          {{ $t('aboutMe.aboutMeText') }}
         </v-col>
       </v-row>
     </v-container>
@@ -29,5 +29,8 @@
 </script>
 
 <style scoped>
-
+ .about-me-container {
+   margin-top: 100px;
+   margin-bottom: 100px;
+ }
 </style>

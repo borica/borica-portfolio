@@ -1,11 +1,32 @@
 {
+  "aboutMe": {
+    "about": "sobre",
+    "aboutMeText": "Atualmente trabalho na engenharia da Logcomex, empresa focada em inteligência no comércio exterior. Construo softwares escaláveis para apresentar informações de forma inteligente. Meu primeiro contato com programação foi com PHP em 2015 durante meu curso de técnico em informática, posteriormente trabalhei com Java (EE) em aplicações web. Nos últimos anos, migrei para microserviços na Logcomex, mantendo serviços em PHP (Lumen/Laravel) e Python (FastAPI), com ênfase no backend e desenvolvimento de soluções arquiteturais.",
+    "me": "mim"
+  },
+  "experience": {
+    "experience": "experiência",
+    "present": "Atualmente",
+    "srFullstackEngineer": "Engenheiro de Software Fullstack Senior",
+    "plFullstackEngineer": "Engenheiro de Software Fullstack Pleno",
+    "jrSoftwareEngineer": "Engenheiro de Software JR",
+    "logcomexSrExperienceText": "Após quase dois anos trabalhando na posição de Engenheiro de Software Pleno, excedi as expectativas de Soft Skills que eram requisitadas para a vaga de Engenheiro de Software Sênior. Tendo já boa bagagem do modus operandi das Squads a quem eu era diretamente relacionado, aceitei o desafio e migrei para outra equipe nesta posição. Já começando na equipe percebi que novamente a barra técnica era mais elevada, e que trabalhar no mesmo nível de antes não mais era possível, frente a isso, novamente me desafiei a compreender no todo, todas as áreas minimamente relacionadas a posição para conseguir desempenhar meu papel, o resultado foi que novamente tive o privilégio de trabalhar com uma ótima equipe a aprender ainda mais.\n\nEsta equipe era encarregada do desenvolvimento e manutenção de um novo produto de BI, altamente configurável, a ideia, é que com pouca configuração prévia já se tivesse um produto funcionando, bastando apenas ter os dados disponíveis em nosso data lake.\n\nNesta posição, apesar de ainda atender a ocasionais incidentes e desenvolvimentos pequenos de Front-End, voltei-me principalmente para manter e desenvolver o Back-End do produto, focando em conhecer novas funcionalidades do Framework Lumen e Laravel (frameworks adotados na Stack de tecnologia da empresa).\n\nTrabalhando principalmente no Back-End, nesta posição tive a oportunidade de aprofundar em questões de arquitetura de código, arquitetura de microsserviços, algoritmos, padrões de refatoração, DDD, aplicações Event-Driven, entre outras habilidades.\n\nTambém como parte da posição é esperado que se trabalhe como multiplicador dos valores da empresa, trabalhe mais perto do negócio, entendo quais, de fato, são as dores do cliente e propondo soluções para resolvê-las, e também assessorar no desenvolvimento de novos colegas por meio de agendas de Pair Programming e mentorias.",
+    "logcomexPlExperienceText": "Sendo a minha primeira experiência em SaaS, trabalhar na Logcomex foi desafiador desde o primeiro dia. Além de lidar com o mundo totalmente novo do Comex, fui desafiado a trabalhar em um ambiente ágil com equipes altamente qualificadas. Também é minha primeira experiência trabalhando com microsserviços, onde aprendi muito com relação a troubleshooting em sistemas distribuídos. \n\nMinha equipe era responsável pelo desenvolvimento e manutenção de um produto de BI onde os clientes podem pesquisar por códigos e palavras-chave, para analisar, prospectar, rastrear, e realizar uma miríade de outros monitoramentos através da cadeia de suprimentos. Sendo o produto mais utilizado da empresa, era crucial trabalhar com prazos estipulados e baixo tempo de ação para resolução de incidentes em produção, esta posição me fez crescer muito como profissional e me mostrou que todo meu aprendizado com sistemas Java que tive antes de trabalhar aqui, eram valiosos e podiam ser aplicados com independente da barreira da linguagem (PHP).\n\nMinha posição como Software Engineer PL, eram:\n\n- Realizar análises nas diferentes frentes de desenvolvimento (Front-End, Back-End, Banco de Dados, etc.) e prover um feedback sobre as análises para os Stakeholders;\n\n- Desenvolvimento de novas funcionalidades, desde o refinamento negocial e técnico, até a implantação e manutenção em produção;\n\n- Resolução de backlog e dívidas técnicas da Squad, atuando principalmente para quitar dívidas de Testes Unitários, Documentação e boas práticas de códigos;\n\n- Participar de discussões de melhorias, padrões, compartilhamento de novas tecnologias e implementar o que foi acordado nos projetos de nossa alçada.\n\n- Atuar como Code Owner do repositório Back-End do nosso produto, tendo como responsabilidade principal o Code Review das mudanças que acontecem no repositório, garantindo que o código siga as boas práticas de código, bem como a cultura de código adotada no geral pela Squad.",
+    "everisExperienceText": "Minha contribuição com a everis pode ser dividida em duas etapas principais:\n\n1 - Trabalhando para o cliente Telefônica (retail) na área de BSS (Business Support Services) e CRM (Customer Relationship Management) no suporte de nível N2 e N3. Grande parte desse trabalho envolvia a atualização de dados em produção em tempo real, atuando para desbloquear e possibilitar o negócio dentro do SLA de Sustentação. Nessa experiência, aprendi a trabalhar com eficiência e cuidado, bem como aprimorei minhas habilidades em SQL e PL/SQL ao trabalhar com bases de dados Oracle.\n\n2 - Trabalhando para o cliente Telefônica (corporate) na área corporativa de desenvolvimento de sistemas. Nessa fase da experiência, tive o prazer de trabalhar em uma equipe com experiência avançada, onde pude aprimorar ainda mais meus conhecimentos de programação. Também atendi a uma demanda de desenvolvimento em Siebel, algo que nunca havia feito antes.",
+    "sigmaExperienceText": "Sigma foi a minha primeira experiência em desenvolvimento web. Essa experiência elevou tanto minhas habilidades interpessoais quanto técnicas para um novo patamar. Sendo apresentado a novos desafios todos os dias, minha jornada na Sigma foi repleta de obstáculos, mas eu estava cercado por pessoas talentosas e experientes das quais aprendi muito. Sou eternamente grato por essa experiência e pela quantidade de aprendizado que obtive dela."
+  },
+  "presentationHeader": {
+    "copyEmail": "Clique no botão para copiar meu email",
+    "mailCopySuccess": "Email copiado com sucesso.",
+    "softwareEngineer" : "Engenheiro de Software",
+    "success": "Sucesso!"
+  },
+  "techStack":{
+    "techStack": "stack",
+    "stackTech": "tecnológica"
+  },
   "translation": {
     "pt": "Idioma Português",
     "en": "Idioma Inglês"
-  },
-  "software_engineer" : "Engenheiro de Software",
-  "copy_email": "Click no botão para copiar meu email",
-  "about_me": "Atualmente trabalho na engenharia da Logcomex, empresa focada em inteligência no comércio exterior. Construo softwares escaláveis para apresentar informações de forma inteligente. Meu primeiro contato com programação foi com PHP em 2015 durante meu curso de técnico em informática, posteriormente trabalhei com Java (EE) em aplicações web. Nos últimos anos, migrei para microserviços na Logcomex, mantendo serviços em PHP (Lumen/Laravel) e Python (FastAPI), com ênfase no backend e desenvolvimento de soluções arquiteturais.",
-  "success": "Sucesso!",
-  "mail_copy_success": "Email copiado com sucesso."
+  }
 }

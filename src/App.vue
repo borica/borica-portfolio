@@ -1,26 +1,25 @@
-<script setup lang="ts">
-import HelloWorld from "@/components/PresentationHeader.vue";
-import TopBarMenu from "@/components/TopBarMenu.vue";
-import AboutMe from "@/components/AboutMe.vue";
-
-</script>
-
 <template>
   <v-app theme="dark">
     <top-bar-menu />
     <v-main>
-      <HelloWorld />
+      <PresentationHeader />
       <AboutMe />
+      <CurrentTechStack />
+      <Experience />
     </v-main>
   </v-app>
 </template>
 
+<script setup lang="ts">
+import AboutMe from "@/components/AboutMe.vue";
+import CurrentTechStack from "@/components/CurrentTechStack.vue";
+import PresentationHeader from "@/components/PresentationHeader.vue";
+import TopBarMenu from "@/components/TopBarMenu.vue";
+import Experience from "@/components/Experience.vue";
+
+</script>
+
 <style>
-
-body {
-  background: rgb(var(--v-theme-background));
-}
-
 .poppins-thin {
   font-family: 'Poppins', sans-serif;
   font-weight: 100;

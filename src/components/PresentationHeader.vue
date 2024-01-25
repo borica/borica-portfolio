@@ -20,7 +20,7 @@
             <h1 class="text-h2 poppins-medium">Tiago Boriça</h1>
           </v-row>
           <v-row class="d-flex justify-center">
-            <h3 class="text-h4 poppins-thin">{{ $t('software_engineer') }}</h3>
+            <h3 class="text-h4 poppins-thin">{{ $t('presentationHeader.softwareEngineer') }}</h3>
           </v-row>
           <v-row class="d-flex justify-center">
             <div class="mt-2">
@@ -38,7 +38,7 @@
                 />
               </a>
               <v-tooltip location="bottom">
-                {{ $t('copy_email') }}
+                {{ $t('presentationHeader.copyEmail') }}
                 <template v-slot:activator="{ props }">
                   <v-btn
                     v-bind="props"
@@ -57,17 +57,18 @@
     <v-snackbar
       v-model="clipboardSnackbar"
       color="#424242"
-      height="70"
+      height="70px"
       width="80px"
       location="bottom right"
     >
       <v-alert
         v-model="clipboardSnackbar"
         class="bg-grey-darken-5"
-        :title="$t('success')"
-        :text="$t('mail_copy_success')"
+        :title="$t('presentationHeader.success')"
+        :text="$t('presentationHeader.mailCopySuccess')"
         closable
-      ></v-alert>
+      >
+      </v-alert>
     </v-snackbar>
   </v-container>
 </template>
@@ -80,6 +81,7 @@ let clipboardSnackbar = ref(false)
 
 const copyEmailToClipboard = () => {
   const email = 'tiago@borica.com.br'
+
   navigator.clipboard.writeText(email)
   clipboardSnackbar.value = true
 }
