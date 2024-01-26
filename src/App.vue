@@ -24,6 +24,13 @@ import Footer from "@/components/Footer.vue";
 </script>
 
 <style>
+
+@media (max-width: 960px) {
+  .text-h1 {
+    font-size: 4rem !important;
+  }
+}
+
 .poppins-thin {
   font-family: 'Poppins', sans-serif;
   font-weight: 100;

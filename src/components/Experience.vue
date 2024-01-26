@@ -4,7 +4,7 @@
       <v-col
         cols="12"
         lg="5"
-        class="mb-sm-10 d-flex justify-sm-center justify-lg-start"
+        class="mb-sm-10 d-flex justify-center justify-lg-start"
       >
         <div class="text-center">
           <p class="text-h1">{{ $t('experience.experience').toUpperCase() }}</p>
