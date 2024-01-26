@@ -52,7 +52,7 @@
 </template>
 
 <script setup lang="ts">
-  const techIconsRoot = '@/assets/techIcons'
+  const techIconsRoot = 'assets/techIcons'
   const techStack = [
     {
       subCategoryName: "Back-end",

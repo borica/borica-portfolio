@@ -55,31 +55,33 @@
 
   const { t } = useI18n()
 
+  const companiesImgSrcRoot = 'assets/companies/'
+
   const experiences = [
    {
      companyName: "Logcomex",
-     companyLogoImageSrc: "src/assets/companies/logcomex.png",
+     companyLogoImageSrc: `${companiesImgSrcRoot}logcomex.png`,
      companyPositionTextTranslation: computed(() => t('experience.srFullstackEngineer')).value,
      companyTextTranslation: computed(() => t('experience.logcomexSrExperienceText')).value,
      period: '2023 present'
    },
    {
      companyName: "Logcomex",
-     companyLogoImageSrc: "src/assets/companies/logcomex.png",
+     companyLogoImageSrc: `${companiesImgSrcRoot}logcomex.png`,
      companyPositionTextTranslation: computed(() => t('experience.plFullstackEngineer')).value,
      companyTextTranslation: computed(() => t('experience.logcomexPlExperienceText')).value,
      period: '2021 - 2023'
    },
     {
       companyName: "NTT Data",
-      companyLogoImageSrc: "src/assets/companies/everis.png",
+      companyLogoImageSrc: `${companiesImgSrcRoot}everis.png`,
       companyPositionTextTranslation: computed(() => t('experience.jrSoftwareEngineer')).value,
       companyTextTranslation: computed(() => t('experience.everisExperienceText')).value,
       period: '2018 - 2021'
     },
     {
       companyName: "Sigma Dataserv",
-      companyLogoImageSrc: "src/assets/companies/sigma.png",
+      companyLogoImageSrc: `${companiesImgSrcRoot}sigma.png`,
       companyPositionTextTranslation: computed(() => t('experience.jrSoftwareEngineer')).value,
       companyTextTranslation: computed(() => t('experience.sigmaExperienceText')).value,
       period: '2017 - 2018'

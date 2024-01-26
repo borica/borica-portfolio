@@ -11,7 +11,6 @@ declare module 'vue' {
     CurrentTechStack: typeof import('./src/components/CurrentTechStack.vue')['default']
     Experience: typeof import('./src/components/Experience.vue')['default']
     Footer: typeof import('./src/components/Footer.vue')['default']
-    HelloWorld: typeof import('./src/components/PresentationHeader.vue')['default']
     PresentationHeader: typeof import('./src/components/PresentationHeader.vue')['default']
     TopBarMenu: typeof import('./src/components/TopBarMenu.vue')['default']
   }
