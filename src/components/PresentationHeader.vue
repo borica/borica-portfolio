@@ -17,10 +17,10 @@
       >
         <div>
           <v-row class="d-flex justify-center">
-            <h1 class="text-h2 poppins-medium">Tiago Boriça</h1>
+            <h1 class="text-h2 poppins-medium text-center">Tiago Boriça</h1>
           </v-row>
           <v-row class="d-flex justify-center">
-            <h3 class="text-h4 poppins-thin">{{ $t('presentationHeader.softwareEngineer') }}</h3>
+            <h3 class="text-h4 poppins-thin text-center">{{ $t('presentationHeader.softwareEngineer') }}</h3>
           </v-row>
           <v-row class="d-flex justify-center">
             <div class="mt-2">
