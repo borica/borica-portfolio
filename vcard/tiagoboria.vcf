@@ -1,0 +1,21 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Boriça;Tiago;;;
+FN:Tiago Boriça
+ORG:
+ADR;TYPE=WORK:Curitiba, PR, Brazil
+TITLE:Senior Fullstack Software Engineer
+TEL;TYPE=CELL:
+TEL;TYPE=WORK:
+TEL;TYPE=HOME:
+TEL;TYPE=MSG:
+EMAIL;TYPE=WORK:tiago@borica.com.br
+URL;TYPE=Digital Business Card:https://borica.com.br/vcard
+URL:https://borica.com.br/
+URL;TYPE=Website:https://borica.com.br/
+URL;TYPE=GitHub:https://github.com/borica
+URL;TYPE=LinkedIn:https://linkedin.com//in/tiago-boriça-57035b161/
+KEY;TYPE=PGP;ENCODING=b:
+NOTE:In the software industry since 2017.
+UID:EnBizCard-100656782
+END:VCARD
