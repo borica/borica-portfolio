@@ -3,7 +3,15 @@
     <v-row class="d-flex align-center tech-stack-container">
       <v-col
         cols="12"
-        sm="6"
+        class="d-flex justify-center hidden-md-and-up mb-10"
+      >
+        <div class="text-center">
+          <p class="text-h1 poppins-bold"> {{ $t('techStack.techStack').toUpperCase() }} </p>
+          <p class="text-h1"> {{ $t('techStack.stackTech').toUpperCase() }} </p>
+        </div>
+      </v-col>
+      <v-col
+        cols="12"
         md="6"
         class="poppins-medium pl-md-10 align"
       >
@@ -31,9 +39,8 @@
       </v-col>
       <v-col
         cols="12"
-        sm="6"
         md="6"
-        class="d-flex justify-end"
+        class="d-flex justify-end hidden-sm-and-down"
       >
         <div class="text-center">
           <p class="text-h1 poppins-bold"> {{ $t('techStack.techStack').toUpperCase() }} </p>
@@ -177,4 +184,19 @@
   margin-top: 100px;
   margin-bottom: 100px;
 }
+
+@media (min-width: 960px) {
+  .hidden-md-and-up {
+    display: none !important;
+  }
+}
+
+@media (max-width: 959.98px) {
+  .hidden-sm-and-down {
+    display: none !important;
+  }
+}
+
+
+
 </style>

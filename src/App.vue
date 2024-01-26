@@ -7,6 +7,9 @@
       <CurrentTechStack />
       <Experience />
     </v-main>
+    <v-footer>
+      <Footer />
+    </v-footer>
   </v-app>
 </template>
 
@@ -16,6 +19,7 @@ import CurrentTechStack from "@/components/CurrentTechStack.vue";
 import PresentationHeader from "@/components/PresentationHeader.vue";
 import TopBarMenu from "@/components/TopBarMenu.vue";
 import Experience from "@/components/Experience.vue";
+import Footer from "@/components/Footer.vue";
 
 </script>
 

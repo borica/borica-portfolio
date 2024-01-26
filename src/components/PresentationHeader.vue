@@ -98,4 +98,10 @@ const copyEmailToClipboard = () => {
 .fill-height-half {
   height: 90vh;
 }
+
+@media (min-width: 2560px) {
+  .fill-height-half {
+    height: 70vh;
+  }
+}
 </style>

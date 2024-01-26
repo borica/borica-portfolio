@@ -1,11 +1,11 @@
 <template>
-  <v-container class="px-16">
-    <v-row class="">
+  <v-container class="px-md-16">
+    <v-row class="experience-container">
       <v-col
         cols="12"
-        sm="5"
+        sm="12"
         md="5"
-        class="d-flex justify-start"
+        class="mb-sm-10 d-flex justify-sm-center justify-md-start"
       >
         <div class="text-center">
           <p class="text-h1">{{ $t('experience.experience').toUpperCase() }}</p>
@@ -13,7 +13,7 @@
       </v-col>
       <v-col
         cols="12"
-        sm="7"
+        sm="12"
         md="7"
         class="poppins-medium"
       >
@@ -28,7 +28,7 @@
                 : experience.period
               }}
             </template>
-            <v-card variant="flat" style="min-width: 700px !important;">
+            <v-card variant="flat">
               <v-row class="w-100">
                 <v-col cols="3" class="d-flex align-center justify-center">
                   <v-img class="ml-3" height="70" :src="experience.companyLogoImageSrc" />
@@ -89,5 +89,8 @@
 </script>
 
 <style scoped>
-
+  .experience-container {
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
 </style>
