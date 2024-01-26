@@ -28,6 +28,7 @@
             >
               <v-chip
                 v-for="item in stack.items"
+                style="pointer-events: none;"
               >
                 <img height="20px" class="mr-2" :src="item.iconSrc" />
                 {{ item.name }}
