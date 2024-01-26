@@ -3,9 +3,8 @@
     <v-row class="experience-container">
       <v-col
         cols="12"
-        sm="12"
-        md="5"
-        class="mb-sm-10 d-flex justify-sm-center justify-md-start"
+        lg="5"
+        class="mb-sm-10 d-flex justify-sm-center justify-lg-start"
       >
         <div class="text-center">
           <p class="text-h1">{{ $t('experience.experience').toUpperCase() }}</p>
@@ -13,8 +12,7 @@
       </v-col>
       <v-col
         cols="12"
-        sm="12"
-        md="7"
+        lg="7"
         class="poppins-medium"
       >
         <v-timeline side="end">
