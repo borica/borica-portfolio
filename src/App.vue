@@ -27,7 +27,8 @@ import Footer from "@/components/Footer.vue";
 
 @media (max-width: 960px) {
   .text-h1 {
-    font-size: 4rem !important;
+    font-size: 3.5rem !important;
+    line-height: 1;
   }
 }
 
