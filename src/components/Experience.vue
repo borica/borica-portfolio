@@ -19,12 +19,11 @@
           <v-timeline-item
             v-for="experience in experiences"
           >
-            <template v-slot:opposite>
-              {{
-                experience.period.includes('present')
-                ? experience.period.split('present').join(` - ${$t('experience.present')}`)
-                : experience.period
-              }}
+            <template
+              v-slot:opposite
+              v-if="!isMdAndDown"
+            >
+              {{ experience.period }}
             </template>
             <v-card variant="flat">
               <v-row class="w-100">
@@ -34,7 +33,13 @@
                 <v-col>
                   <v-card-item class="w-100">
                     <v-card-title class="text-h5" > {{ experience.companyName }} </v-card-title>
-                    <v-card-subtitle class="text-h6"> {{ experience.companyPositionTextTranslation }} </v-card-subtitle>
+                    <v-card-subtitle class="text-h6" :title="experience.companyPositionTextTranslation"> {{ experience.companyPositionTextTranslation }} </v-card-subtitle>
+                    <v-card-subtitle
+                      v-if="isMdAndDown"
+                      class="text"
+                    >
+                      {{ experience.period }}
+                    </v-card-subtitle>
                     <div class="text-caption text-pre-line"> {{ experience.companyTextTranslation }} </div>
                   </v-card-item>
                 </v-col>
@@ -50,8 +55,10 @@
 <script setup lang="ts">
   import { useI18n } from 'vue-i18n'
   import { computed } from "vue"
+  import { useDisplay } from 'vuetify'
 
   const { t } = useI18n()
+  const isMdAndDown = useDisplay().mdAndDown
 
   const companiesImgSrcRoot = 'assets/companies/'
 
@@ -61,7 +68,7 @@
      companyLogoImageSrc: `${companiesImgSrcRoot}logcomex.png`,
      companyPositionTextTranslation: computed(() => t('experience.srFullstackEngineer')).value,
      companyTextTranslation: computed(() => t('experience.logcomexSrExperienceText')).value,
-     period: '2023 present'
+     period: `2023 - ${t('experience.present')}`
    },
    {
      companyName: "Logcomex",
